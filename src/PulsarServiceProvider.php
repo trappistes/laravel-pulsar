@@ -3,6 +3,7 @@
 namespace Trappistes\Pulsar;
 
 use Illuminate\Support\ServiceProvider;
+use Trappistes\Pulsar\Connectors\PulsarConnector;
 
 class PulsarServiceProvider extends ServiceProvider
 {
