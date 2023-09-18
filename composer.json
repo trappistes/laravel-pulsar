@@ -1,0 +1,27 @@
+{
+    "name": "trappistes/laravel-pulsar",
+    "description": "Laravel Pulsar Queue",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Trappistes\\Pulsar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "刘阳",
+            "email": "182050940@qq.com"
+        }
+    ],
+    "require": {
+        "ikilobyte/pulsar-client-php": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Trappistes\\Pulsar\\PulsarServiceProvider"
+            ]
+        }
+    }
+}
